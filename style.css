@@ -45,3 +45,25 @@ a {
 a:visited {
     color: #F9FAF8;
 }
+
+.upper-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 150px;
+    /* border: 1px solid red; */
+}
+
+.upper-left-content {
+    display: flex;
+    flex-flow: column wrap;
+    width: 400px;
+    /* border: 1px solid red; */
+}
+
+.upper-right-content {
+    color: #E5E7EB;
+    background-color: rgba(128, 138, 143, 0.837);
+    padding: 80px 70px;
+    /* border: 1px solid red; */
+}
