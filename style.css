@@ -13,15 +13,10 @@ body {
     overflow: hidden;
 }
 
-.upper-container {
-    height: 500px;
-    background-color: #1F2937;
-    /* border: 1px solid red; */
-}
-
 .header {
     display: flex;
     justify-content: space-around;
+    background-color: #1F2937;
     padding-top: 20px;
 }
 
@@ -49,8 +44,9 @@ a:visited {
 .upper-content {
     display: flex;
     justify-content: center;
+    background-color: #1F2937;
     gap: 50px;
-    padding: 150px;
+    padding: 150px 150px 110px 150px;
     /* border: 1px solid red; */
 }
 
