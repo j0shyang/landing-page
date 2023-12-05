@@ -13,9 +13,20 @@ body {
     overflow: hidden;
 }
 
+.upper-container {
+    height: 500px;
+    background-color: #1F2937;
+    /* border: 1px solid red; */
+}
+
 .header {
     display: flex;
     justify-content: space-around;
+    padding-top: 20px;
+}
+
+.header-logo {
+    color: #F9FAF8;
 }
 
 ul {
@@ -27,10 +38,10 @@ ul {
 }
 
 a {
-    color: black;
+    color: #E5E7EB;
     text-decoration: none;
 }
 
 a:visited {
-    color: black;
+    color: #F9FAF8;
 }
