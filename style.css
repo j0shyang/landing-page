@@ -104,6 +104,9 @@ a:hover {
 }
 
 .upper-right-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #E5E7EB;
     background-color: rgba(128, 138, 143, 0.837);
     padding:110px 150px;
