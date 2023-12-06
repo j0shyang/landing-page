@@ -11,6 +11,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: sans-serif;
+    /* overflow: hidden; */
 }
 
 .header {
@@ -176,4 +177,65 @@ a:hover {
     font-size: 30px;
     font-weight: bold;
     color: #1F2937;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 0px;
+    /* border: 1px solid red; */
+}
+
+.bottom-content {
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px 150px;
+    border-radius: 10px;
+    gap: 150px;
+    /* border: 1px solid red; */
+}
+
+.bottom-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-text-1 {
+    color: #F9FAF8;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.bottom-text-2 {
+    color: #E5E7EB;
+}
+
+.bottom-sign-up-button {
+    display: flex;
+    align-items: center;
+}
+
+.bottom-sign-up-button button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 550;
+    border: 2px solid #F9FAF8;
+    border-radius: 9px;
+    padding: 8px 35px;
+}
+
+.bottom-sign-up-button button:hover {
+    background-color: #5994f3;
+}
+
+.bottom-sign-up-button button:active {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 550;
+    border: 2px solid #F9FAF8;
+    border-radius: 9px;
+    padding: 8px 35px;
 }
