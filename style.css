@@ -239,3 +239,16 @@ a:hover {
     border-radius: 9px;
     padding: 8px 35px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 50px;
+    /* border: 1px solid red; */
+}
+
+.footer-text {
+    color: #F9FAF8;
+    font-size: 18px;
+}
