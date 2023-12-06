@@ -102,3 +102,42 @@ a:visited {
     font-size: 18px;
     /* border: 1px solid red; */
 }
+
+.upper-mid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 150px 150px;
+    border: 1px solid red;
+}
+
+.upper-mid-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-bottom: 45px;
+}
+
+.upper-mid-content {
+    display: flex;
+    gap: 50px;
+}
+
+.upper-mid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.upper-mid-content-image {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
