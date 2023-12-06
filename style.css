@@ -11,6 +11,7 @@ body {
     height: 100vh;
     margin: 0;
     overflow: hidden;
+    font-family: sans-serif;
 }
 
 .header {
@@ -38,7 +39,7 @@ a {
 }
 
 a:visited {
-    color: #F9FAF8;
+    color: #E5E7EB;
 }
 
 .upper-content {
@@ -50,16 +51,49 @@ a:visited {
     /* border: 1px solid red; */
 }
 
+.upper-content-text-1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.upper-content-text-2 {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.upper-sign-up-button button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 550;
+    border: 1px solid #5994f3;;
+    border-radius: 9px;
+    padding: 8px 35px;
+}
+
+.upper-sign-up-button button:active {
+    background-color: #5994f3;
+    color: rgb(208, 208, 208);
+    font-size: 18px;
+    font-weight: 550;
+    border: 1px solid #3882F6;
+    border-radius: 9px;
+    padding: 8px 35px;
+}
+
 .upper-left-content {
     display: flex;
     flex-flow: column wrap;
-    width: 400px;
+    width: 450px;
+    gap: 10px;
     /* border: 1px solid red; */
 }
 
 .upper-right-content {
     color: #E5E7EB;
     background-color: rgba(128, 138, 143, 0.837);
-    padding: 80px 70px;
+    padding:110px 150px;
+    font-size: 18px;
     /* border: 1px solid red; */
 }
